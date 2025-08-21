@@ -9,3 +9,8 @@ I am not responsible for any issues that may arise from using these scripts. Use
 ### `./crypto`
 
 - AES-256 Decryptor (AI Generated): Decrypts a string using an AES-256 key and IV.
+
+### `./teleport`
+
+- Teleport Manager: Allows teleporting other players to specified positions and orientations in the VRChat world (and therefore to other players too).
+> This was designed before Udon Networking supported events with variables. It has no queue and will not handle concurrency properly if multiple teleport requests are made at the same time. Redesign with NetworkCallable events is not planned but may occur.
